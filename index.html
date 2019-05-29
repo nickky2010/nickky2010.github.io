@@ -23,7 +23,7 @@
         }
 
         .container {
-            margin-top: 0px;
+            margin-top: 55px;
         }
 
         .LearningTasks h1 {
@@ -50,12 +50,22 @@
             border-bottom-left-radius: 93%;
             top: 0; 
         }
+        .leftimg {
+            float:left; /* Выравнивание по левому краю */
+            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        }
+        ul.dialog {
+            list-style: none;
+        }
+        ul.dialog li:before {
+            content: "\2012 \0020";
+        }
     </style>
 </head>
 
 <body>
     <!-- навигация начало -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" style="color:yellow"><img src="content/image/hard_hat.png" alt="" height="40" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" 
                 aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,8 +83,29 @@
     </nav>
     <!-- навигация конец -->
     <div class="container body-content">
+        <div class="AboutMe" >
+            <h3 class="text-center"><a id="AboutMe">О себе</a></h3>
+            <p><img src="content/image/myPhoto.png" alt="" class="leftimg"><strong>Здравствуйте!</strong> </p>
+            <p>Меня зовут Николай и я рад что вы посетили данную страницу. Расскажу немного о себе. Начну наверно как это принято по правилам :)))</p>
+            <p><strong>Hard skills:</strong></p>
+            <ul class="dialog">
+                    <li>C/C++, C#</li>
+                    <li>WinFORMS</li>
+                    <li>WPF</li>
+                    <li>MS SQL Server</li>
+                    <li>ADO.NET, Entity Framework</li>
+                    <li>Web API</li>
+                    <li>ASP.NET</li>
+                </ul>
+            <p><strong>Soft skills:</strong></p>
+            <ul class="dialog">
+                    <li>responsibility, good communication skills, teamwork, system and logical thinking, planning, business letter and etc...</li>
+                    <li>English: Pre-intermediate level. But I'm working on it :)</li>
+             </ul>
+             <p>Образование высшее техническое. Одним из моих увлечений является программирование, 
+                 что в свою очередь привело меня к обучению в компьютерной Академии Шаг.</p>
+        </div>
         <div class="LearningTasks">
-            <!-- <div class="container"> -->
                 <h3 class="text-center"><a id="LearningTasks">Учебные задачи</a></h3>
                 <div class="row flex-row">
                     <div class="col-lg-3 col-md-3 col-sm-12 item">
@@ -118,7 +149,6 @@
                             </a>
                         </div>    
                 </div>
-            <!-- </div> -->
         </div>
         <hr />
         <footer>
