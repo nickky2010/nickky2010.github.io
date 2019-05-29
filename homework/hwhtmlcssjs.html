@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" sizes="152x152" type="image/png" href="../content/image/hard_hat_152x152.png">
+    <title>Manko Mikalai</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .navbar-brand,
+        .navbar-nav li a {
+            line-height: 44px;
+            height: 44px;
+            padding-top: 0;
+        }
+
+        .btn-primary-spacing {
+            margin-right: 5px;
+            margin-bottom: 5px !important;
+        }
+
+        .container {
+            margin-top: 0px;
+        }
+
+        .LearningTasks h1 {
+            color: rgba(26, 187, 0, 0.95);
+        }
+
+        .LearningTasks .item {
+            position: sticky;
+        }
+
+        .LearningTasks .des {
+            background: rgba(0, 26, 255, 0.925);
+            color: #ffffff;
+            text-align: center;
+            transition: .1s linear;
+        }
+
+        .LearningTasks .item:hover .des {
+            height: 10%;
+            background: rgba(26, 187, 0, 0.95);
+            position: sticky;
+            width: 100%;
+            border-bottom-right-radius: 55%;
+            border-bottom-left-radius: 55%;
+            border-top-right-radius: 95%;
+            border-top-left-radius: 95%;
+            top: 0; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- навигация начало -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" style="color:yellow"><img src="../content/image/hard_hat.png" alt="" height="40" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" 
+                aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="../index.html#AboutMe">О себе</a></li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#LearningTasks">Учебные задачи</a> </li> 
+                <li class="nav-item"><a class="nav-link" href="../index.html#MyProjects">Мои проекты</a> </li> 
+                <li class="nav-item"><a class="nav-link" href="../index.html#Contacts">Контакты </a> </li>
+            </ul> 
+            <ul class="navbar-nav justify-content-end"></ul>
+        </div>
+    </nav>
+    <!-- навигация конец -->
+    <div class="container body-content">
+        <div class="LearningTasks">
+            <h3 class="text-center"><a id="LearningTasks">Учебные задачи по HTML5 + CSS + JS</a></h3>
+                <div class="row flex-row">
+                    <div class="col-lg-3 col-md-3 col-sm-12 item">
+                        <a class="nav-link" href="Task1/Task1.html">
+                            <img src="content/image/ring.png" class="img-fluid" alt="">
+                            <div class="des">
+                                Задание 1: Властелин колец
+                            </div>
+                        </a>
+                </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; 2019 Manko Mikalai: All right reserved</p>
+        </footer>
+    </div>
+    <!-- подключаем скрипты -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
