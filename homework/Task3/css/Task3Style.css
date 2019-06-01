@@ -10,10 +10,10 @@ img.titleImage{
 @font-face {
     font-display: swap;
     font-family: 'Tolkiencyr';
-     src:   url('../fonts/Tolkiencyr.woff2') format('woff2'),
-            url('../fonts/Tolkiencyr.woff') format('woff'),
-            url('../fonts/Tolkiencyr.ttf') format('truetype'),
-            url('../fonts/Tolkiencyr.svg#Tolkiencyr') format('svg');
+     src:   url('homework/Task3/fonts/Tolkiencyr.woff2') format('woff2'),
+            url('homework/Task3/fonts/Tolkiencyr.woff') format('woff'),
+            url('homework/Task3/fonts/Tolkiencyr.ttf') format('truetype'),
+            url('homework/Task3/fonts/Tolkiencyr.svg#Tolkiencyr') format('svg');
     font-weight: bold;
     font-style: normal;
 }
