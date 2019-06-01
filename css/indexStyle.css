@@ -1,0 +1,42 @@
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 44px;
+    height: 44px;
+    padding-top: 0;
+}
+
+.btn-primary-spacing {
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+
+.container {
+    margin-top: 55px;
+}
+.topSpace{
+    margin-top: 55px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -55px;
+    visibility: hidden;}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+ul.dialog {
+    list-style: none;
+}
+
+ul.dialog li:before {
+    content: "\2012 \0020";
+}
+
+.card {
+    width: 16rem;
+    margin: 0.5rem;
+}

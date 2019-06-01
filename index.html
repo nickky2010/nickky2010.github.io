@@ -7,59 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" sizes="152x152" type="image/png" href="content/image/hard_hat_152x152.png">
     <title>Manko Mikalai</title>
+    <link rel="stylesheet" href="css/indexStyle.css"> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        .navbar-brand,
-        .navbar-nav li a {
-            line-height: 44px;
-            height: 44px;
-            padding-top: 0;
-        }
-
-        .btn-primary-spacing {
-            margin-right: 5px;
-            margin-bottom: 5px !important;
-        }
-
-        .container {
-            margin-top: 55px;
-        }
-
-        .LearningTasks h1 {
-            color: rgba(26, 187, 0, 0.95);
-        }
-
-        .LearningTasks .item {
-            position: sticky;
-        }
-
-        .LearningTasks .des {
-            background: #F97300;
-            color: #ffffff;
-            text-align: center;
-            transition: .1s linear;
-        }
-
-        .LearningTasks .item:hover .des {
-            height: 10%;
-            background: rgba(26, 187, 0, 0.95);
-            position: sticky;
-            width: 100%;
-            border-bottom-right-radius: 93%;
-            border-bottom-left-radius: 93%;
-            top: 0; 
-        }
-        .leftimg {
-            float:left; /* Выравнивание по левому краю */
-            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-        }
-        ul.dialog {
-            list-style: none;
-        }
-        ul.dialog li:before {
-            content: "\2012 \0020";
-        }
     </style>
 </head>
 
@@ -84,7 +35,8 @@
     <!-- навигация конец -->
     <div class="container body-content">
         <div class="AboutMe" >
-            <h3 class="text-center"><a id="AboutMe">О себе</a></h3>
+            <a class="anchor" id="AboutMe"></a>
+            <h3 class="text-center">О себе</h3>
             <p><img src="content/image/myPhoto.png" alt="" class="leftimg"><strong>Здравствуйте!</strong> </p>
             <p>Меня зовут Николай и я рад что вы посетили данную страницу. Расскажу немного о себе. Начну наверно как это принято по правилам :)))</p>
             <p><strong>Hard skills:</strong></p>
@@ -106,48 +58,63 @@
                  что в свою очередь привело меня к обучению в компьютерной Академии Шаг.</p>
         </div>
         <div class="LearningTasks">
-                <h3 class="text-center"><a id="LearningTasks">Учебные задачи</a></h3>
+                <a class="anchor" id="LearningTasks"></a>
+                <h3 class="text-center">Учебные задачи</h3>
                 <div class="row flex-row">
-                    <div class="col-lg-3 col-md-3 col-sm-12 item">
-                        <a class="nav-link" href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=C-Sharp&type=&language=">
-                            <img src="content/image/csharp.png" class="img-fluid" alt="">
-                            <div class="des">
-                                C#
-                            </div>
-                        </a>
+                    <div class="card">
+                        <img src="content/image/csharp.png" class="img-fluid" alt="">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title">C#</h4>
+                                <p class="card-text"> Язык программирования C#</p>
+                                <a href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=C-Sharp&type=&language=" 
+                                   class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 item">
-                        <a class="nav-link" href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=ADO.NET&type=&language=">
+                    <div class="card">
                             <img src="content/image/entityFramework.png" class="img-fluid" alt="">
-                            <div class="des">
-                                ADO.NET + Entity Framework
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">ADO.NET + Entity Framework</h4>
+                                    <p class="card-text"> Технологии работы с данными ADO.NET и Entity Framework</p>
+                                    <a href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=ADO.NET&type=&language=" 
+                                       class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
                             </div>
-                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 item">
-                        <a class="nav-link" href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=WinForms&type=&language=">
+                    <div class="card">
                             <img src="content/image/winforms.png" class="img-fluid" alt="">
-                            <div class="des">
-                                Windows Forms
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">Windows Forms</h4>
+                                    <p class="card-text"> Создание графических приложений под Windows на платформе Windows Forms</p>
+                                    <a href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=WinForms&type=&language=" 
+                                       class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
                             </div>
-                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 item">
-                        <a class="nav-link" href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=wpf&type=&language=">
+                    <div class="card">
                             <img src="content/image/wpf.png" class="img-fluid" alt="">
-                            <div class="des">
-                                WPF
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">WPF</h4>
+                                    <p class="card-text"> Создание настольных приложений с богатой насыщенной графикой под Windows на платформе WPF</p>
+                                    <a href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=wpf&type=&language=" 
+                                       class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
                             </div>
-                        </a>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12 item">
-                            <a class="nav-link" href="homework/hwhtmlcssjs.html">
-                                <img src="content/image/htmlcssjs.png" class="img-fluid" alt="">
-                                <div class="des">
-                                    HTML5 + CSS +JS
-                                </div>
-                            </a>
-                        </div>    
+                    <div class="card">
+                            <img src="content/image/wcf.png" class="img-fluid" alt="">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">WCF</h4>
+                                    <p class="card-text"> Создание распределенных (сервис-ориентированных) систем</p>
+                                    <a href="https://github.com/nickky2010?utf8=✓&tab=repositories&q=wcf&type=&language=" 
+                                       class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <img src="content/image/htmlcssjs.png" class="img-fluid" alt="">
+                            <div class="card-body d-flex flex-column">
+                                <h4 class="card-title">HTML5 + CSS +JS</h4>
+                                    <p class="card-text"> Создание web страниц</p>
+                                    <a href="homework/hwhtmlcssjs.html" 
+                                       class="btn btn-lg btn-block btn-primary mt-auto">Смотреть</a>
+                            </div>
+                    </div>
                 </div>
         </div>
         <hr />

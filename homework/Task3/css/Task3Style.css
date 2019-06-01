@@ -1,0 +1,26 @@
+ul.dialog {
+    list-style: none;
+}
+ul.dialog li:before {
+    content: "\2012 \0020";
+}
+img.titleImage{
+    width:100%
+}
+@font-face {
+    font-family: 'Tolkiencyrregular';
+    src: url('../fonts/tolkiencyr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2 {
+    font-family: 'Tolkiencyrregular';
+    text-align: center;
+}
+ul.content{
+    font-family: 'Tolkiencyrregular';
+}
+p, ul, h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

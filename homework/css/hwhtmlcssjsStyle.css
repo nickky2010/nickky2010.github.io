@@ -1,0 +1,20 @@
+.navbar-brand,
+.navbar-nav li a {
+     line-height: 44px;
+     height: 44px;
+     padding-top: 0;
+}
+
+.btn-primary-spacing {
+     margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.card {
+    width: 16rem;
+    margin: 0.5rem;
+}
