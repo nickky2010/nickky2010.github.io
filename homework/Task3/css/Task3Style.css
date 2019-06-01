@@ -7,21 +7,16 @@ ul.dialog li:before {
 img.titleImage{
     width:100%
 }
-/* @font-face {
-    font-family: 'Tolkiencyrregular';
-    src: url('../fonts/TolkienCyr/tolkiencyr.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
- */
 @font-face {
     font-family: 'Tolkiencyr';
-    src: url('../fonts/TolkienCyr/Tolkiencyr.woff2') format('woff2'),
-         url('../fonts/TolkienCyr/Tolkiencyr.woff') format('woff');         
-    font-weight: normal;
+    src: url('../fonts/TolkienCyr/Tolkiencyr.eot');
+    src: url('../fonts/TolkienCyr/Tolkiencyr.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TolkienCyr/Tolkiencyr.woff2') format('woff2'),
+        url('../fonts/TolkienCyr/Tolkiencyr.woff') format('woff'),
+        url('../fonts/TolkienCyr/Tolkiencyr.ttf') format('truetype'),
+        url('../fonts/TolkienCyr/Tolkiencyr.svg#Tolkiencyr') format('svg');
+    font-weight: bold;
     font-style: normal;
-
 }
 h1, h2 {
     font-family: 'Tolkiencyr';
