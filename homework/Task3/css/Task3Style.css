@@ -9,11 +9,11 @@ img.titleImage{
 }
 @font-face {
     font-display: swap;
-    font-family: Tolkiencyr;
-     src:   url(../fonts/TolkienCyr/Tolkiencyr.woff2) format('woff2'),
-            url(../fonts/TolkienCyr/Tolkiencyr.woff) format('woff'),
-            url(../fonts/TolkienCyr/Tolkiencyr.ttf) format('truetype'),
-            url(../fonts/TolkienCyr/Tolkiencyr.svg#Tolkiencyr) format('svg');
+    font-family: 'Tolkiencyr';
+     src:   url('../fonts/TolkienCyr/Tolkiencyr.woff2') format('woff2'),
+            url('../fonts/TolkienCyr/Tolkiencyr.woff') format('woff'),
+            url('../fonts/TolkienCyr/Tolkiencyr.ttf') format('truetype'),
+            url('../fonts/TolkienCyr/Tolkiencyr.svg#Tolkiencyr') format('svg');
     font-weight: bold;
     font-style: normal;
 }
