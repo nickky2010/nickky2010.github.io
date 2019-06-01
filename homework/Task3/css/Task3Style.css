@@ -17,12 +17,8 @@ img.titleImage{
  */
 @font-face {
     font-family: 'Tolkiencyr';
-    src: url('../fonts/TolkienCyr/tolkiencyr-webfont.eot');
-    src: url('../fonts/TolkienCyr/tolkiencyr-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/TolkienCyr/tolkiencyr-webfont.woff2') format('woff2'),
-         url('../fonts/TolkienCyr/tolkiencyr-webfont.woff') format('woff'),
-         url('../fonts/TolkienCyr/tolkiencyr-webfont.ttf') format('truetype'),
-         url('../fonts/TolkienCyr/tolkiencyr-webfont.svg#tolkiencyrregular') format('svg');
+    src: url('../fonts/TolkienCyr/Tolkiencyr.woff2') format('woff2'),
+         url('../fonts/TolkienCyr/Tolkiencyr.woff') format('woff');         
     font-weight: normal;
     font-style: normal;
 
