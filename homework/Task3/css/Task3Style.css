@@ -7,19 +7,32 @@ ul.dialog li:before {
 img.titleImage{
     width:100%
 }
-@font-face {
+/* @font-face {
     font-family: 'Tolkiencyrregular';
-    src: url('../fonts/tolkiencyr.ttf') format('truetype');
+    src: url('../fonts/TolkienCyr/tolkiencyr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ */
+@font-face {
+    font-family: 'Tolkiencyr';
+    src: url('../fonts/TolkienCyr/tolkiencyr-webfont.eot');
+    src: url('../fonts/TolkienCyr/tolkiencyr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TolkienCyr/tolkiencyr-webfont.woff2') format('woff2'),
+         url('../fonts/TolkienCyr/tolkiencyr-webfont.woff') format('woff'),
+         url('../fonts/TolkienCyr/tolkiencyr-webfont.ttf') format('truetype'),
+         url('../fonts/TolkienCyr/tolkiencyr-webfont.svg#tolkiencyrregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 h1, h2 {
-    font-family: 'Tolkiencyrregular';
+    font-family: 'Tolkiencyr';
     text-align: center;
 }
 ul.content{
-    font-family: 'Tolkiencyrregular';
+    font-family: 'Tolkiencyr';
 }
 p, ul, h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
