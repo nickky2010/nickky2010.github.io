@@ -9,7 +9,7 @@ img.titleImage{
 }
 @font-face {
     font-family: 'Tolkiencyr';
-     src:  url('/homework/Task3/fonts/TolkienCyr.ttf') format('truetype');
+     src:  url('/homework/Task3/fonts/TolkienCyr.ttf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
