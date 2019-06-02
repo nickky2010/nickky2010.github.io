@@ -1,26 +1,19 @@
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 44px;
-    height: 44px;
-    padding-top: 0;
-}
-
 .btn-primary-spacing {
     margin-right: 5px;
     margin-bottom: 5px !important;
 }
 
 .container {
-    margin-top: 55px;
+    margin-top: 75px;
 }
 .topSpace{
-    margin-top: 55px;
+    margin-top: 75px;
 }
 
 a.anchor {
     display: block;
     position: relative;
-    top: -55px;
+    top: -75px;
     visibility: hidden;}
 
 .leftimg {
@@ -40,3 +33,20 @@ ul.dialog li:before {
     width: 16rem;
     margin: 0.5rem;
 }
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 4px rgba(255, 251, 0, 0.329), inset 0 0 60px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+
