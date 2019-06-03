@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    </head>
+	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+</head>
 
 <body>
     <!-- навигация начало -->
@@ -26,6 +29,7 @@
                 <li class="nav-item active"><a class="nav-link" href="#AboutMe">О себе</a></li>
                 <li class="nav-item"><a class="nav-link" href="#LearningTasks">Учебные задачи</a></li> 
                 <li class="nav-item"><a class="nav-link" href="#TrainingTask">Тренинги</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Certificates">Сертификаты</a></li>
                 <li class="nav-item"><a class="nav-link" href="#MyProjects">Мои проекты</a></li> 
             </ul> 
             <div class="social github">
@@ -149,6 +153,55 @@
                 </div>
             </div>
         </div>
+        <div class="Certificates">
+            <a class="anchor" id="Certificates"></a>
+            <h3 class="text-center">Сертификаты</h3>
+            <div class="wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/CCITE-Certificate.png" alt="CCITE-Certificate"/></a>
+						<div class="sb-description">
+							<h3>CCITE-Certificate</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/CCITE-Letter.png" alt="CCITE-Letter"/></a>
+						<div class="sb-description">
+							<h3>CCITE-Letter</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/I2IoE-Certificate.png" alt="I2IoE-Certificate"/></a>
+						<div class="sb-description">
+							<h3>I2IoE</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/CLA_Programming_Essentials_in_C.png" alt="CLA_Programming"/></a>
+						<div class="sb-description">
+							<h3>CLA Programming Essentials in C</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/Microsoft_Database_Fundamentals.png" alt="Database"/></a>
+						<div class="sb-description">
+							<h3>Microsoft Database Fundamentals</h3>
+						</div>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="content/image/certificates/ADO.NET.jpg" alt="AD"/></a>
+						<div class="sb-description">
+							<h3>Microsoft ADO.NET</h3>
+						</div>
+					</li>
+				</ul>
+				<div id="shadow" class="shadow"></div>
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+			</div><!-- /wrapper -->
+        </div>
         <hr />
         <footer>
             <p>&copy; 2019 Manko Mikalai: All right reserved</p>
@@ -164,6 +217,41 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var Page = (function() {
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+								$navArrows.show();
+								$shadow.show();
+							},
+							orientation : 'r',
+							cuboidsRandom : true,
+							disperseFactor : 30
+						} ),
+						init = function() {
+							initEvents();
+						},
+						initEvents = function() {
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+								slicebox.next();
+								return false;
+							} );
+							$navArrows.children( ':last' ).on( 'click', function() {
+								slicebox.previous();
+								return false;
+							} );
+						};
+						return { init : init };
+				})();
+				Page.init();
+			});
+		</script>
 </body>
 
 </html>
