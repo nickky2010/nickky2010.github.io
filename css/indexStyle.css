@@ -5,6 +5,8 @@
 
 .container {
     margin-top: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .topSpace{
     margin-top: 75px;
@@ -37,8 +39,8 @@ ul.dialog li:before {
 }    
 
 .card {
-    width: 16rem;
-    margin: 0.5rem;
+    width: 25%;
+    margin: 2%;
 }
 .social a {
     text-align: center;
@@ -57,4 +59,7 @@ ul.dialog li:before {
 .skype a:hover {background: #00aff0; color: #fff;}
 .linkedin a:hover {background: #0e76a8; color: #fff;}
 
+.Certificates{
+    margin-left: -5%;
+}
 
