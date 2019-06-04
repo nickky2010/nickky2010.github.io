@@ -7,6 +7,7 @@
     margin-top: 75px;
     margin-left: 5%;
     margin-right: 5%;
+    position: relative;
 }
 .topSpace{
     margin-top: 75px;
@@ -39,8 +40,9 @@ ul.dialog li:before {
 }    
 
 .card {
-    width: 25%;
-    margin: 2%;
+    width: 15rem;
+    margin: 1%;
+    box-shadow: 0 0 20px #ccc;
 }
 .social a {
     text-align: center;
@@ -60,18 +62,18 @@ ul.dialog li:before {
 .linkedin a:hover {background: #0e76a8; color: #fff;}
 
 .Certificates{
-    margin-left: -5%;
+    margin-left: -2%;
 }
 .carousel-inner img {
     width: 100%;
     height: 100%;
   }
-.carousel-control-prev-icon{
+/* .carousel-control-prev-icon{
     margin-left: -115%;
-}
+}*/
 .carousel-control-next-icon{
-    margin-right: -169%;
-}
+    margin-right: -25%;
+} 
 
   .carousel-control-prev-icon,
 .carousel-control-next-icon {
