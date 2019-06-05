@@ -38,11 +38,15 @@ ul.dialog li:before {
 .btn-card:hover {
    background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5,  rgb(0, 80, 255)));
 }    
-
 .card {
     width: 15rem;
     margin: 1%;
     box-shadow: 0 0 20px #ccc;
+}
+@media screen and (max-width: 512px) {
+    .content-center {
+        justify-content: center;
+    }
 }
 .social a {
     text-align: center;
