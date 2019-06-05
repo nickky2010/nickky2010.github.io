@@ -69,34 +69,32 @@ ul.dialog li:before {
     height: 100%;
   }
 .carousel-control-prev-icon{
-    margin-left: -5%;
+    padding-left: -5%;
 }
 .carousel-control-next-icon{
-    margin-right: -25%;
+    padding-right: -25%;
 } 
 
   .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  height: 4rem !important;
-  width: 4rem !important;
-  outline: black ;
-  background-size: 100%, 100%;
-  border-radius: 100% !important;
-  border: 1px solid rgba(66, 66, 66, 0.705);
-  background-image:  #0e76a8;
-  background:rgba(0, 174, 255, 0.705)!important;
+    height: 4rem !important;
+    width: 4rem !important;
+    outline: black ;
+    background-size: 100%, 100%;
+    border-radius: 100% !important;
+    border: 1px solid rgba(66, 66, 66, 0.2);
+    background-image:  #0e76a8;
+    background:rgba(0, 174, 255, 0.2)!important;
 }
 .carousel-control-next-icon:after
 {
-  content: '>'!important;
-  font-size: 2.25rem;
-  color: rgba(0, 60, 255, 0.705);
+    content: '>'!important;
+    font-size: 2.25rem;
+    color: rgba(0, 60, 255, 0.5);
 }
 
 .carousel-control-prev-icon:after {
-  content: '<'!important;
-  font-size: 2.25rem;
-  color: rgba(0, 60, 255, 0.705);
-}
-
-
+    content: '<'!important;
+    font-size: 2.25rem;
+    color: rgba(0, 60, 255, 0.5);
+} 
