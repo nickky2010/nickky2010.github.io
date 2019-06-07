@@ -1,0 +1,47 @@
+.navbar-brand,
+.navbar-nav li a {
+     line-height: 44px;
+     height: 44px;
+     padding-top: 0;
+}
+
+.btn-primary-spacing {
+     margin-right: 5px;
+    margin-bottom: 5px !important;
+}
+
+.container {
+    margin-top: 75px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+.topSpace{
+    margin-top: 75px;
+}
+
+.card {
+    width: 16rem;
+    margin: 0.5rem;
+}
+@media screen and (max-width: 512px) {
+    .content-center {
+        justify-content: center;
+    }
+}
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 4px rgba(255, 251, 0, 0.329), inset 0 0 60px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
