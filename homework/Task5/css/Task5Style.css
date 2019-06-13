@@ -28,6 +28,9 @@
     .content-center {
         justify-content: center;
     }
+    .form-control{
+        max-width: auto;
+    }
 }
 .social a {
     text-align: center;
@@ -46,6 +49,6 @@
 .skype a:hover {background: #00aff0; color: #fff;}
 .linkedin a:hover {background: #0e76a8; color: #fff;}
 
-.form-group .form-control{
-    width: 25rem;
+.form-control{
+    max-width: 25rem;
 }
