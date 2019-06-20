@@ -1,0 +1,95 @@
+ul.dialog {
+    list-style: none;
+}
+ul.dialog li:before {
+    content: "\2012 \0020";
+}
+img.titleImage{
+    width:100%
+}
+.body{
+    background-color: #cccccc5b;
+    background: url("../image/cover.png") repeat-y,
+    #cccccc5b;
+    padding-left: 20px;
+}
+@font-face {
+    font-family: 'Tolkiencyr';
+     src:  url('/homework/Task4/fonts/TolkienCyr.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+.Header, .ChapterHeader h1, h2{
+    font-family: 'Tolkiencyr';
+    text-align: center;
+}
+.Header h1{
+    background: url("../image/HeaderPattern.png") no-repeat,
+    #fff url(../image/HeaderPattern.png) no-repeat 100% 0;
+    padding-left: 40px;
+    margin-top: -8px;
+    margin-bottom: -1px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.ChapterHeader h2{
+    background: url("../image/ChapterHeaderLeftDragon.png") no-repeat,
+    #fff url(../image/ChapterHeaderRightDragon.png) no-repeat 100% 0;
+    padding-left: 40px;
+    margin-top: -8px;
+    margin-bottom: -1px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+ul.content{
+    font-family: 'Tolkiencyr';
+}
+p, ul, h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ContentText{
+    background: url("../image/png-pattern-Content.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    text-align: center;
+    font-family: 'Tolkiencyr';
+}
+
+.ContentText a{
+    text-decoration: none;
+    color: rgba(33, 33, 33, 0.75);
+}
+
+.ContentText a:hover{
+    color: rgb(17, 0, 255);
+}
+li{
+    list-style: none;
+}
+.Chapter1Text,.Chapter2Text,.Chapter3Text,.Chapter4Text,.Chapter5Text{
+    background-image: url("../image/png-pattern.png");
+    background-repeat: repeat;
+}
+
+.back1{
+    float: left;
+    width: 30px;
+    padding: 2;
+    margin: 2;
+    overflow: hidden;
+}
+.back3{
+    float: right;
+    width: 30px;
+    padding: 2;
+    margin: 2;
+    overflow: hidden;
+}
+.back2{
+    width: 300px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
