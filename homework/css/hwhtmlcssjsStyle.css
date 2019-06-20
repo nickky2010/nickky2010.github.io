@@ -19,7 +19,12 @@
 .topSpace{
     margin-top: 75px;
 }
-
+.btn-card{
+    background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5,  rgb(0, 140, 255)));
+ }
+ .btn-card:hover {
+    background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5,  rgb(0, 80, 255)));
+ }
 .card {
     width: 16rem;
     margin: 0.5rem;
