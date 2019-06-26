@@ -2,7 +2,7 @@
     margin-right: 5px;
     margin-bottom: 5px !important;
 }
-p {
+.AboutMe p{
     text-indent: 20px; /* Отступ первой строки в пикселах */
 }
 .container {
