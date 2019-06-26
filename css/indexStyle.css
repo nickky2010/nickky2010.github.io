@@ -2,7 +2,9 @@
     margin-right: 5px;
     margin-bottom: 5px !important;
 }
-
+p {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
+}
 .container {
     margin-top: 75px;
     margin-left: 5%;
@@ -17,8 +19,14 @@ a.anchor {
     display: block;
     position: relative;
     top: -75px;
-    visibility: hidden;}
+    visibility: hidden;
+}
 
+a.aboutMe:hover {
+    text-decoration: none;
+    color:rgb(30, 0, 165);
+}
+    
 .leftimg {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
