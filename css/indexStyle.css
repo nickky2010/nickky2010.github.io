@@ -5,20 +5,39 @@
 .AboutMe p{
     text-indent: 20px; /* Отступ первой строки в пикселах */
 }
+.AboutMe{
+    background-color: rgb(242, 255, 236);
+}
+.LearningTasks{
+    background-color: rgb(242, 255, 236);
+}
+.TrainingTask{
+    background-color: rgb(242, 255, 236);
+}
+
+.Certificates{
+    background-color: rgb(242, 255, 236);
+}
+
+.container-first {
+    margin-top: 72px;
+}
 .container {
-    margin-top: 75px;
     margin-left: 5%;
     margin-right: 5%;
     position: relative;
 }
+.navStyle{
+    background-color: rgb(15, 16, 85);
+}
 .topSpace{
-    margin-top: 75px;
+    margin-top: 72px;
 }
 
 a.anchor {
     display: block;
     position: relative;
-    top: -75px;
+    top: -72px;
     visibility: hidden;
 }
 
@@ -30,6 +49,8 @@ a.aboutMe:hover {
 .leftimg {
     float:left; /* Выравнивание по левому краю */
     margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    box-shadow: 0 0 20px rgb(145, 145, 145);
+    border: #fff solid 1px;
 }
 
 ul.dialog {
@@ -49,7 +70,7 @@ ul.dialog li:before {
 .card {
     width: 15rem;
     margin: 1%;
-    box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px rgb(145, 145, 145);
 }
 .img_card{
     width: 300px;
