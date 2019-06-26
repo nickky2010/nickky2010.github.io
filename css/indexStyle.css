@@ -43,9 +43,21 @@ ul.dialog li:before {
     margin: 1%;
     box-shadow: 0 0 20px #ccc;
 }
+.img_card{
+    width: 300px;
+    margin: auto;
+}
+
 @media screen and (max-width: 512px) {
     .content-center {
         justify-content: center;
+    }
+    .card {
+        width: 100%;
+        margin: 5%;
+    }
+    .leftimg {
+        width: 100%;
     }
 }
 .social a {
