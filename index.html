@@ -16,8 +16,8 @@
 
 <body>
     <!-- навигация начало -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" style="color:yellow"><img src="content/image/hard_hat.png" alt="" height="40" /></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navStyle">
+        <a class="navbar-brand" style="color:yellow"><img src="content/image/NET_logo.png" alt="" height="40" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1"
             aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,8 +42,8 @@
         </div>
     </nav>
     <!-- навигация конец -->
-    <div class="container body-content">
-        <div class="AboutMe">
+    <div class="AboutMe">
+        <div class="container container-first">
             <a class="anchor" id="AboutMe"></a>
             <h3 class="text-center">About myself</h3>
             <p><img src="content/image/myPhoto.png" alt="" class="leftimg"><strong>Hello!</strong> </p>
@@ -61,28 +61,38 @@
             </ul>
             <p><strong>Soft skills:</strong></p>
             <ul class="dialog">
-                <li>responsibility, good communication skills, teamwork, system and logical thinking, planning, business
+                <li>responsibility, good communication skills, teamwork, system and logical thinking, planning,
+                    business
                     letter and etc...</li>
-                <li>English: <a class="aboutMe" href="http://efset.org/cert/xSRmJh" target="_blank">Pre-intermediate level</a>. But I'm working on it :)</li>
+                <li>English: <a class="aboutMe" href="http://efset.org/cert/xSRmJh" target="_blank">Pre-intermediate
+                        level</a>. But I'm working on it :)</li>
             </ul>
-            <p>I graduated from the <a class="aboutMe" href="http://ucp.by" target="_blank">Gomel Engineering Institute for Emergency Situations</a>.
-                My experience is more than 6 years in the department of labor protection. 
-                At work, I always tried to automate workflows. Interest in automation has pushed me to develop programming skills.                
+            <p>I graduated from the <a class="aboutMe" href="http://ucp.by" target="_blank">Gomel Engineering
+                    Institute for Emergency Situations</a>.
+                My experience is more than 6 years in the department of labor protection.
+                At work, I always tried to automate workflows. Interest in automation has pushed me to develop
+                programming skills.
             </p>
-            <p> Currently, I have been studying software development at <a class="aboutMe" href="http://gomel.itstep.by/about-academy/" target="_blank">ITSTEP Computer Academy</a> for over a year.
-                During my study in Computer Academy, I met with programming languages such as C, C++, C#, development technologies such as WinFORMS, WPF, WCF, WebAPI, 
+            <p> Currently, I have been studying software development at <a class="aboutMe"
+                    href="http://gomel.itstep.by/about-academy/" target="_blank">ITSTEP Computer Academy</a> for
+                over a year.
+                During my study in Computer Academy, I met with programming languages such as C, C++, C#,
+                development technologies such as WinFORMS, WPF, WCF, WebAPI,
                 software design patterns, data technologies ADO.NET, Entity Framework and MS SQL Server.
             </p>
             <p>
                 Currently I study ASP.NET, HTML5, CSS, JavaScript.
             </p>
-            <p>
-                Also I have two <a class="aboutMe" href="#TrainingTask">training project</a> from <a class="aboutMe" href="https://exadel.com" target="_blank">Exadel</a>
+            <p style="margin-bottom: 0">
+                Also I have two <a class="aboutMe" href="#TrainingTask">training project</a> from <a class="aboutMe"
+                    href="https://exadel.com" target="_blank">Exadel</a>
                 and <a class="aboutMe" href="https://www.epam.com" target="_blank">EPAM</a> companies.
             </p>
         </div>
-        <div class="LearningTasks">
-            <a class="anchor" id="LearningTasks"></a>
+    </div>
+    <div class="LearningTasks">
+        <div class="container">
+            <a class="anchor" style="margin-bottom: 0" id="LearningTasks"></a>
             <h3 class="text-center">Learning tasks</h3>
             <div class="row flex-row content-center flex-row">
                 <div class="card">
@@ -152,7 +162,9 @@
                 </div>
             </div>
         </div>
-        <div class="TrainingTask">
+    </div>
+    <div class="TrainingTask">
+        <div class="container">
             <a class="anchor" id="TrainingTask"></a>
             <h3 class="text-center">Trainings</h3>
             <div class="row flex-row content-center">
@@ -176,7 +188,9 @@
                 </div>
             </div>
         </div>
-        <div class="Certificates">
+    </div>
+    <div class="Certificates">
+        <div class="container">
             <a class="anchor" id="Certificates"></a>
             <h3 class="text-center">Certificates</h3>
             <div id="sliderBigImages" class="carousel slide" data-ride="carousel">
