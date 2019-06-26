@@ -47,7 +47,6 @@ ul.dialog li:before {
     width: 300px;
     margin: auto;
 }
-
 @media screen and (max-width: 512px) {
     .content-center {
         justify-content: center;
