@@ -2,6 +2,23 @@
     margin-right: 5px;
     margin-bottom: 5px !important;
 }
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 4px rgba(255, 251, 0, 0.329), inset 0 0 60px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+
 .AboutMe p{
     text-indent: 20px; /* Отступ первой строки в пикселах */
 }
@@ -56,7 +73,8 @@ ul.dialog li:before {
    background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5,  rgb(0, 140, 255)));
 }
 .btn-card:hover {
-    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.637),0 6px 6px rgb(0, 0, 0);
+    transition: cubic-bezier(0,1.84,1,1.61) 1.5s;
+    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.7),0 6px 6px rgb(0, 0, 0);
 }    
 .card {
     width: 15rem;
@@ -64,7 +82,19 @@ ul.dialog li:before {
     box-shadow: 0 0 20px rgb(145, 145, 145);
 }
 .card:hover {
-    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.637),0 6px 6px rgb(0, 0, 0);
+    box-shadow: 0px 10px 20px rgba(88, 88, 88, 0.7),0 8px 8px rgb(70, 113, 255);
+}
+
+.сertImg{
+    box-shadow: 0 0 20px rgb(145, 145, 145);
+}
+.сertImg:hover{
+    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.7),0 6px 6px rgb(0, 0, 0);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 70px;
+    height: 70px;  
+    background-color: rgba(140, 140, 140, 0.5);      
 }
 
 @media screen and (max-width: 512px) {
@@ -88,29 +118,4 @@ ul.dialog li:before {
         width: 50px;
         height: 50px;  
     }    
-}
-.social a {
-    text-align: center;
-    width: 46px;
-    height: 46px;
-    float: left;
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    box-shadow: 0 2px 4px rgba(255, 251, 0, 0.329), inset 0 0 60px rgba(0,0,0,0.2);
-    border-radius: 6px;
-    margin: 0 10px 10px 0;
-    padding: 6px;
-    color: #000;
-}
-.github a:hover {background: #191919; color: #fff;}
-.skype a:hover {background: #00aff0; color: #fff;}
-.linkedin a:hover {background: #0e76a8; color: #fff;}
-
-.сertImg{
-    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.637),0 6px 6px rgb(0, 0, 0);
-}
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    width: 70px;
-    height: 70px;  
-    background-color: rgba(140, 140, 140, 0.5);      
 }
