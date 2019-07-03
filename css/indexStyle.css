@@ -63,6 +63,10 @@ ul.dialog li:before {
     margin: 1%;
     box-shadow: 0 0 20px rgb(145, 145, 145);
 }
+.card:hover {
+    box-shadow: 0 10px 20px rgba(88, 88, 88, 0.637),0 6px 6px rgb(0, 0, 0);
+}
+
 @media screen and (max-width: 512px) {
     .content-center {
         justify-content: center;
