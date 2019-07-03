@@ -14,9 +14,9 @@
 
 </head>
 
-<body class="MainBody">
+<body class="MainBody" data-spy="scroll" data-target="#navbar1">
     <!-- навигация начало -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navStyle">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navStyle" id="navbar">
         <a class="navbar-brand" style="color:yellow"><img src="content/image/net_logo.png" alt="" height="40" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1"
             aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="#AboutMe">About myself</a></li>
+                <li class="nav-item"><a class="nav-link" href="#AboutMe">About myself</a></li>
                 <li class="nav-item"><a class="nav-link" href="#LearningTasks">Learning tasks</a></li>
                 <li class="nav-item"><a class="nav-link" href="#TrainingTask">Trainings</a></li>
                 <li class="nav-item"><a class="nav-link" href="#Certificates">Certificates</a></li>
@@ -238,7 +238,6 @@
         <hr />
         <p>&copy; 2019 Manko Mikalai: All right reserved</p>
     </footer>
-
     <!-- подключаем скрипты -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
