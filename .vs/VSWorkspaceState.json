@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content",
+    "\\content\\image",
+    "\\content\\image\\certificates",
+    "\\css"
   ],
-  "SelectedNode": "\\C:\\projects\\lending",
+  "SelectedNode": "\\content\\image\\certificates\\Microsoft_Database_Fundamentals.jpg",
   "PreviewInSolutionExplorer": false
 }
